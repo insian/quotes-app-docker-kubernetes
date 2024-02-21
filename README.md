@@ -65,7 +65,7 @@ In this guide, we'll walk through the steps to run a Python web application on D
 Start Minikube using the following command:
 
 ```bash
-minikube start
+minikube start --driver=docker
 ```
 
 ### Exposing the service
